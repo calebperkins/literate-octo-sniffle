@@ -1,0 +1,36 @@
+{
+  "name": "literate-octo-sniffle",
+  "version": "0.0.1",
+  "description": "The best inventory management software",
+  "repository": "https://github.com/calebperkins/literate-octo-sniffle.git",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "gulp build",
+    "prestart": "npm install",
+    "start": "node web.js",
+    "test": "karma start"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "express-http-proxy": "^0.10.1",
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": {
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-es2015": "^6.18.0",
+    "bower": "^1.8.0",
+    "eslint": "^3.9.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-bower": "0.0.13",
+    "gulp-concat": "^2.6.0",
+    "gulp-sourcemaps": "^2.2.0",
+    "jasmine": "^2.5.2",
+    "karma": "^1.3.0",
+    "karma-babel-preprocessor": "^6.0.1",
+    "karma-bower": "^1.0.1",
+    "karma-coverage": "^1.1.1",
+    "karma-jasmine": "^1.0.2",
+    "karma-safari-launcher": "^1.0.0"
+  }
+}
